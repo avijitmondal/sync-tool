@@ -26,7 +26,7 @@ public class SyncFTPServer {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(SyncFTPServer.class);
 
-	public static void main(String[] args) {
+	public void runFtpServer() {
 		LOGGER.debug("main");
 		FtpServerFactory serverFactory = new FtpServerFactory();
 		ListenerFactory factory = new ListenerFactory();
