@@ -1,4 +1,4 @@
-package io.github.avijitmondal.ftp.data;
+package com.avijitmondal.sync.ftp.data;
 
 public abstract class Constants {
 

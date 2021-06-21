@@ -1,4 +1,4 @@
-package io.github.avijitmondal.ftp.util;
+package com.avijitmondal.sync.ftp.util;
 
 import org.apache.ftpserver.usermanager.PasswordEncryptor;
 

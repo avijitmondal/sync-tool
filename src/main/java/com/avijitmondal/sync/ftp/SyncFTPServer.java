@@ -1,10 +1,11 @@
-package io.github.avijitmondal.ftp;
+package com.avijitmondal.sync.ftp;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.avijitmondal.sync.ftp.data.Constants;
 import org.apache.ftpserver.FtpServer;
 import org.apache.ftpserver.FtpServerFactory;
 import org.apache.ftpserver.ftplet.Authority;
@@ -18,9 +19,8 @@ import org.apache.ftpserver.usermanager.impl.WritePermission;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.github.avijitmondal.ftp.data.Constants;
-import io.github.avijitmondal.ftp.util.SyncFtplet;
-import io.github.avijitmondal.ftp.util.SyncPasswordEncryptor;
+import com.avijitmondal.sync.ftp.util.SyncFtplet;
+import com.avijitmondal.sync.ftp.util.SyncPasswordEncryptor;
 
 public class SyncFTPServer {
 

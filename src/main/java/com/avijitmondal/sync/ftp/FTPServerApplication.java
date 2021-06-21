@@ -1,5 +1,5 @@
 
-package io.github.avijitmondal.ftp;
+package com.avijitmondal.sync.ftp;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
